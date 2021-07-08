@@ -1,0 +1,4 @@
+#!/bin/bash
+br=$1
+eth=$2
+dev=$3
