@@ -15,7 +15,7 @@ cat ${FILE_BASE_CONFIG} \
     ${FILE_CLIENT_CRT} \
     <(echo -e '</cert>\n<key>') \
     ${FILE_CLIENT_KEY} \
-    <(echo -e '</key>\n<tls-crypt>') \
+    <(echo -e '</key>\n<tls-auth>') \
     ${FILE_TLS_KEY} \
-    <(echo -e '</tls-crypt>') \
+    <(echo -e '</tls-auth>') \
     > ${FILE_OUTPUT}
