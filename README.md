@@ -44,5 +44,6 @@ Please see `sudo journalctl -xe` if openvpn server does not run well.
 1. generate ca.crt, client.crt, client.key, dh.pem, and ta.key and move them to /etc/openvpn
 2. modify client_tap.conf with your configuration and move it to /etc/openvpn/client.conf
 3. sudo service openvpn@client start
+4. sudo dhclient tap0
 
 Please see `sudo journalctl -xe` if openvpn client does not run well.
